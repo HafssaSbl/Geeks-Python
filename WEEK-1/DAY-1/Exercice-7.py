@@ -1,23 +1,16 @@
+basket = ["Banana", "Apples", "Oranges", "Blueberries"]
 
-fruits = ["pomme", "banane", "orange"]
-print("Liste initiale :", fruits)
+basket.remove("Banana")
 
+basket.remove("Blueberries")
 
-fruits.append("kiwi")
-print("Après ajout avec append :", fruits)
+basket.append("Kiwi")
 
+basket.insert(0, "Apples")
 
-fruits.insert(0, "mangue")
-print("Après insertion avec insert :", fruits)
+count_apples = basket.count("Apples")
+print(f"Le nombre d'apparitions de 'Apples' est : {count_apples}")
 
+basket.clear()
 
-fruits.remove("banane")
-print("Après suppression avec remove :", fruits)
-
-
-compteur_oranges = fruits.count("orange")
-print("Nombre de fois que 'orange' apparaît :", compteur_oranges)
-
-
-fruits.clear()
-print("Après clear (liste vide) :", fruits)
+print("État final de la liste :", basket)
