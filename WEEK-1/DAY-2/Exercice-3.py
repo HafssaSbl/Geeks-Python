@@ -1,4 +1,4 @@
-# Création du dictionnaire brand
+
 brand = {
     "name": "Zara",
     "creation_date": 1975,

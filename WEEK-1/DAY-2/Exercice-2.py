@@ -5,7 +5,7 @@ n = int(input("Combien de membres dans la famille ? "))
 names = input("Noms des membres, séparés par des virgules : ").split(',')
 ages = input("Âges des membres, séparés par des virgules : ").split(',')
 
-# Nettoyer les espaces
+
 names = [name.strip() for name in names]
 ages = [int(age.strip()) for age in ages]
 
